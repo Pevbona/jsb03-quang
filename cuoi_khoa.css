@@ -1,0 +1,254 @@
+/* HEADER */
+header {
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0%;
+  box-shadow: 7px 5px 14px 2px #00000024;
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  width: 15%;
+  margin-left: 1%;
+  display: flex;
+
+}
+.logo-text{
+    margin-top: 20px;
+    padding-left: 6px;
+    color: rgb(118, 216, 118);
+}
+.logo-text-sub{
+    margin-top: 10px;
+    padding-left: 2px;
+    color: rgb(231, 179, 127);
+}
+
+.one{
+    width: 13%;
+    height: 0%;
+    padding-left: 10px;
+    padding-top: 15px;
+}       
+.two{
+    width: 14%;
+    height: 0%;
+    padding-left: 24px;
+    padding-top: 15px;
+  
+}
+.icon0{
+    width: 5%;
+    height: 0%;
+    padding-left: 220px;
+    padding-top: 15px;
+}
+.icon1{
+    width: 5%;
+    height: 0%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+    
+
+
+/* SEARCH */
+.search-icon {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input[type="text"] {
+  width: 600px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 14px;
+  margin-left: 200px;
+}
+
+.search-icon .mic{
+  width: 5%;
+  height: 0%;
+  padding-left: 10px;
+}
+
+/* LEFT ICON */
+.left-icon {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 3%;
+}
+
+.left-icon .icon{
+  width: 70px;
+  height: 70px;
+  padding: 0 15px;
+}
+
+.login {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+/* CONTENT */
+
+section {
+  height: 100vh;
+  background-color: white;
+  padding-top: 100px;
+  width: 100%;
+}
+
+/* MENU LEFT */
+
+.box2 {
+  width: 20%;
+  overflow-y: scroll;
+  background-color: #f9f9f9;
+  max-height: 100vh;
+}
+.cha {
+  display: flex;
+  height: 100vh;
+  margin-top: 1%;
+}
+.conn {
+  color: black;
+  margin-left: 10px;
+}
+.con img {
+  width: 12%;
+  height: 0%;
+  border-radius: 100%;
+}
+
+.menu-left-heading{
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.con {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+}
+.abc {
+  color: rgb(236, 116, 72);
+  margin-top: 3%;
+}
+.box2 :hover{
+  background-color: rgb(161, 156, 156);
+}
+
+
+/* MENU SUB */
+
+.big {
+  width: 100%;
+}
+.cha2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  height: 9%;
+  text-align: center;
+}
+.tex {
+  background-color: rgb(235, 223, 223);
+  border-radius: 20%;
+
+}
+.menu {
+  padding: 10px;
+}
+
+
+.ke1 {
+  color: rgb(226, 222, 222);
+}
+.ke2 {
+  color: rgb(226, 222, 222);
+  margin-top: -11px;
+}
+.cha2 :hover{
+  background-color: rgb(161, 156, 156);
+}
+
+
+
+
+/* BOX VIDEOS */
+
+
+.add {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.vid1 {
+  width: 23.5%;
+  height: 300px;
+  border-radius: 10px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  box-shadow: 13px 11px 18px 6px #0000005c;
+  margin-top: 36px;
+}
+
+.vid1:hover{
+  transform: scale(1.05);
+  transition: transform ease 0.4s;
+}
+.vid1 .link1 {
+  width: 100%;
+  height: 230px;
+  overflow-y: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.ab {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  justify-content: stretch;
+  padding-left: 15px;
+  align-items: center;
+}
+.tl{
+  text-align: center;
+}
+.tl a{
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.ava {
+  border-radius: 100%;
+  width: 40px;
+  padding: 10px;
+}
+

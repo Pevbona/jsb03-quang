@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+</head>
+<link rel="icon" href="https://image.flaticon.com/icons/png/128/3175/3175132.png" sizes="16x16">
+<body>
+
+    <style>
+        /* HEADER */
+header {
+  height: 100px;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0%;
+  box-shadow: 7px 5px 14px 2px #00000024;
+  display: flex;
+  align-items: center;
+}
+
+/* LOGO */
+.logo {
+  width: 15%;
+  margin-left: 1%;
+  display: flex;
+
+}
+.logo-text{
+    margin-top: 20px;
+    padding-left: 6px;
+    color: rgb(118, 216, 118);
+}
+.logo-text-sub{
+    margin-top: 10px;
+    padding-left: 2px;
+    color: rgb(231, 179, 127);
+}
+
+.one{
+    width: 13%;
+    height: 0%;
+    padding-left: 10px;
+    padding-top: 15px;
+}       
+.two{
+    width: 14%;
+    height: 0%;
+    padding-left: 24px;
+    padding-top: 15px;
+  
+}
+.icon0{
+    width: 5%;
+    height: 0%;
+    padding-left: 220px;
+    padding-top: 15px;
+}
+.icon1{
+    width: 5%;
+    height: 0%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+    
+
+
+/* SEARCH */
+.search-icon {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input[type="text"] {
+  width: 600px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  padding: 12px 14px;
+  margin-left: 200px;
+}
+
+.search-icon .mic{
+  width: 5%;
+  height: 0%;
+  padding-left: 10px;
+}
+
+/* LEFT ICON */
+.left-icon {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 3%;
+}
+
+.left-icon .icon{
+  width: 70px;
+  height: 70px;
+  padding: 0 15px;
+}
+
+.login {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+        
+section{
+            height: 1000px;
+            background-color:white;
+            padding-top: 100px;
+            width: 100%;
+        }
+        .logo{
+            display: flex;
+        }
+        
+        .abc{
+            color: rgb(236, 116, 72);
+            margin-top: 3%;
+        }
+        .ab{
+            margin-top: 2%;
+            margin-left: 0%;
+            color: rgb(209, 197, 197);
+        }
+        .section{
+            height: 10000px;
+            background-color:white;
+            padding-top: 100px;
+            width: 100%;
+        }
+        .cha{
+            width: 90%;
+            height: 10000px;
+            
+        }
+        .add{
+            width: 10%;
+            height: 110px;
+            display: flex;
+        }
+        .all{
+            display: flex;
+        }
+        .video1{
+            width: 130%;
+            height: 600px;
+            padding-left: 70px;
+            margin-top: 20px;
+        }
+        .link1{
+            width: 90%;
+            height:85%;
+            margin-top: 20px;
+            margin-left: 190px;
+        }
+        .tl{
+            padding-left: 180px;
+            width: 100%;
+        }
+        .oo{
+            color: rgb(179, 170, 170);
+            padding-left: 180px;
+            width: 100%;
+        }
+        .setting{
+            width: 130%;
+            margin-left: 70px;
+            height:30px;
+            padding-top: 5px;
+
+        }
+        .aaa{
+            margin-top: 1px;
+        }
+        .like{
+            width: 130%;
+            margin-left: 70px;
+            height:50px;
+            display: flex;
+        }
+        .dislike{
+            color: rgb(179, 170, 170);
+        }
+        .licon{
+            width: 3%;
+            height: 70%;
+            margin-left: 300px;
+            padding-top: 2px;
+        }
+        .licon1{
+            width: 3%;
+            height: 70%;
+            margin-left: 50px;
+            padding-top: 2px;
+        }
+        .kkk{
+            padding-left: 6px;
+            margin-top: 15px;
+        }
+        .ke{
+            margin-left: 70px;
+            width: 130%;
+            background-color: gray;
+            height: 1px;
+        }
+        .img{
+            width: 85%;
+            border-radius: 100%;
+         
+        }
+        .infm{
+            width: 130%;
+            height: 100px;
+            padding-left: 70px;
+            margin-top: 15px;
+            display: flex;
+        }
+        .name2{
+            color: rgb(179, 170, 170);
+            margin-top: -20px;
+        }
+        .name{
+            padding-left: 10px;
+            margin-top: -19px;
+        }
+        .sub{
+            background-color: red;
+            width: 12%;
+            height: 36%;
+            text-align: right;
+            border-radius: 5%;
+            margin-left: 70%;
+        }
+        .sub1{
+            color: white;
+            text-align: center;
+            margin-top: 12px;
+        }
+        .infm2{
+            width: 130%;
+            height: 120px;
+            padding-left: 125px;
+            margin-top: 15px;
+            
+        }
+        .sort{
+            width: 2%;
+            height: 20%;
+            padding-left: 40px;
+            margin-top: 19px;
+        }
+        .sort1{
+            padding-left: 10px;
+        }
+        .name1{
+            width: 165%;
+        }
+        .name2{
+            width: 165%;
+        }
+        .tong{
+            padding-left: 150px;
+        }
+    </style>
+    <body>
+        <header>
+
+            <!-- LOGO && ICON NHO -->
+            <div class="logo">
+              <img class="one" src="https://image.flaticon.com/icons/png/512/2099/2099125.png" alt="">
+              <img class="two" src="https://image.flaticon.com/icons/png/128/3175/3175132.png" alt="">
+              <h3 class="logo-text"> Film Island</h3>
+              <h6 class="logo-text-sub">VN</h6>
+            </div>    
+            <!-- SEARCH & ICON -->
+            <div class="search-icon">
+              <input type="text" name="search" placeholder="Search..">
+              <img class="mic" src="https://image.flaticon.com/icons/png/128/3211/3211311.png" alt="">
+            </div>
+            <!-- LEFT ICON -->
+            <div class="left-icon">
+              <img class="icon0" src="https://image.flaticon.com/icons/png/128/1320/1320985.png" alt="">
+              <img class="icon1" src="    https://image.flaticon.com/icons/png/128/2489/2489014.png" alt="">
+              <img class="icon1" src="    https://image.flaticon.com/icons/png/128/388/388762.png" alt="">
+              <img class="icon1" src="    https://image.flaticon.com/icons/png/128/3177/3177440.png" alt="">
+              <a class="login" href="file:///G:/mindx/login.html">Đăng nhập</a>
+             
+            </div>
+          </header>
+        <section>
+        <div class="all">
+            <div class="cha">
+                <div class="cha1">
+                    <iframe class="video1" src="https://www.youtube.com/embed/68P2EbWPibM" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+                </div>
+                <div class="setting">
+                    <h1 class="aaa">I Played Minecraft for 100 Days.. (1.16 Survival)</h1>
+                </div>
+                <div class="like">
+                    <h4 class="dislike">5,404,522 views</h4>
+                    <img class="licon" src="https://image.flaticon.com/icons/png/128/880/880452.png" alt="">
+                    <h5 class="kkk">125k</h5>
+                    <img class="licon1" src="https://image.flaticon.com/icons/png/128/880/880460.png" alt="">
+                    <h5 class="kkk">2.7k</h5>
+                    <img class="licon1" src="https://image.flaticon.com/icons/png/128/3163/3163345.png" alt="">
+                    <h5 class="kkk">Share</h5>
+                    <img class="licon1" src="https://image.flaticon.com/icons/png/128/3067/3067443.png" alt="">
+                    <h5 class="kkk">Save</h5>
+                </div>
+                <div class="ke">
+                    
+                </div>
+                <div class="infm">
+                    <div class="inf">
+                        <img class="img" src="https://yt3.ggpht.com/ytc/AKedOLTpqgUl4h_JTBALV_FywGBa7mc8Dt-GOxTud8E=s68-c-k-c0x00ffffff-no-rj" alt="">
+                    </div>
+                    <div class="name">
+                        <h3 class="name1">SmallishBeans</h3>
+                        <h4 class="name2">3.02M subscribers</h4>
+                    </div>
+                    <div class="sub">
+                        <h5 class="sub1">SUBSCRIBE</h5>
+                    </div>
+                </div>  
+                <div class="infm2">
+                    <h4>Voicenotes, the brand new album, out now!</h4>
+                    <p><h4 style="color: rgb(82, 158, 230);">https://Atlantic.lnk.to/VoicenotesID</h4></p>
+                    <p><h4>Show more</h4></p>
+
+                </div>  
+                <div class="ke">
+                    
+                </div>
+                <div class="infm">
+                    <h4>99,004 Comments</h4>
+                    <img class="sort" src="https://image.flaticon.com/icons/png/128/565/565341.png" alt="">
+                    <h4 class="sort1">Sort By</h4>
+                </div>
+            </div>
+        <div class="tong">
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/BxuY9FET9Y4/hqdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/cuoi_khoa2.html">Charlie Puth - One Call Away</a></h4>
+                    <p class="oo">Charlie Puth-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/RgKAFK5djSk/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/cuoi_khoa2.html">Wiz Khalifa - See You Again ft. Charlie Puth</a></h4>
+                    <p class="oo">Wiz Khalifa-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/PR_yVho1Txc/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(2).html">MISSING YOU - PHƯƠNG LY x TINLE</a></h4>
+                    <p class="oo">Phuong Ly official-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/xypzmu5mMPY/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(3).html">SƠN TÙNG M-TP | MUỘN RỒI MÀ SAO CÒN</a></h4>
+                    <p class="oo">SƠN TÙNG M-TP-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/jk7LbXUpmz0/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(5).html">STREAM ĐẾN BAO GIỜ - ĐỘ MIXI</a></h4>
+                    <p class="oo">Mixi gaming-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/ZqDBgYPpUTg/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(4).html">Obito ft. hnhngan live "YOUR SMILE - Emma x Seachains x Obito</a></h4>
+                    <p class="oo">Wiz Khalifa-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/Il-an3K9pjg/hqdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(6).html">Anne-Marie - 2002</a></h4>
+                    <p class="oo">Anne-Marie-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/aJOTlE1K90k/mqdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(7)%20-%20Copy.html">Maroon 5 - Girls Like You</a></h4>
+                    <p class="oo">Maroon 5-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/09R8_2nJtjg/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(9)%20-%20Copy%20-%20Copy.html">Maroon 5 - Sugar</a></h4>
+                    <p class="oo">Maroon 5-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://cmcdistribution.com.vn/en/wp-content/uploads/2021/07/The-Power-of-MG3-New-RECORD-in-SEASON-20.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(11)%20-%20Copy%20-%20Copy.html">The Power of MG3 | New RECORD in SEASON 20 | PUBG MOBILE</a></h4>
+                    <p class="oo">Anne-Marie-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/u8mSpu17JHc/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(10)%20-%20Copy%20-%20Copy.html">Ark Survival Evolved - Genesis 2 EP1</a></h4>
+                    <p class="oo">Anne-Marie-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/kffacxfA7G4/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(9)%20-%20Copy.html">Justin Bieber - Baby</a></h4>
+                    <p class="oo">Justin Bieber-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/AgFeZr5ptV8/mqdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(8)%20-%20Copy.html">Taylor Swift - 22</a></h4>
+                    <p class="oo">Taylor Swift-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/BsC-sedVuvY/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(12)%20-%20Copy%20-%20Copy.html">3 Star the Clash Worlds June Qualifier Challenge</a></h4>
+                    <p class="oo">Taylor Swift-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://i.ytimg.com/vi/dYqkwro7f7o/maxresdefault.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(13)%20-%20Copy%20-%20Copy.html">Albion Online: Is it Worth Playing in 2021?</a></h4>
+                    <p class="oo">Taylor Swift-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+            <div class="add">
+                <div class="vid1">
+                  <img class="link1" src="https://gameviet.mobi/wp-content/uploads/2019/07/am-duong-su-Onmyoji-gameviet-3.jpg" alt="">
+                </div>
+                <div class="abb">
+                    <h4 class="tl"><a href="file:///G:/mindx/youtube/cuoi_khoa2%20-%20Copy%20(14)%20-%20Copy%20-%20Copy.html">Onmyoji - PVP</a></h4>
+                    <p class="oo">Taylor Swift-746,125,987 views</p>
+                    
+                </div>            
+            </div>
+
+        </div>
+        </section>
+    </body>
+    </html>
+</body>
+</html>
